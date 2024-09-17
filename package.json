@@ -1,6 +1,6 @@
 {
   "name": "@hn3000/simpletemplate",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "simplest possible string template engine",
   "repository": {
     "type": "git",
@@ -21,11 +21,12 @@
   "keywords": [],
   "author": "Harald Niesche",
   "license": "MIT",
+  "engines": {"node": ">=16"},
   "devDependencies": {
     "@hn3000/tsunit-async": "github:hn3000/tsunit-async",
-    "@types/node": "^14.14.35",
-    "nyc": "^15.1.0",
-    "typescript": "^4.2.3"
+    "@types/node": "^16.0.0",
+    "nyc": "^15.0.0",
+    "typescript": "^5.6.2"
   },
   "dependencies": {}
 }
